@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    line-height: 1.6;
+    background-color: #f5f0f0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #1772e1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#container__mensagem {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#acionar__motivacional {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1772e1;
+    border: 2px solid #1772e1;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#acionar__motivacional:hover {
+    background-color: #145cc1;
+    color: white;
+    transform: scale(1.05);
+    transition: all 200ms ease;
+}
+
+#acionar__motivacional:active {
+    transform: scale(0.5);
+}
+
+h2 {
+    font-size: 32px;
+}
+
+ul li {
+    font-size: 24px;
+    padding: 5px 0 5px 0;
+}
+
+#curiosidade__minha {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#curiosidade__minha:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: center;
+}
+
+tfoot {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+a {
+    color: #1772e1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
